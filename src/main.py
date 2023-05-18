@@ -7,7 +7,7 @@ def main():
     logger = None
     is_save = True
     if is_save:
-        from mylib import WandbLogger
+        from mylib.logger import WandbLogger
 
         # logger
         exp_name = "test"
